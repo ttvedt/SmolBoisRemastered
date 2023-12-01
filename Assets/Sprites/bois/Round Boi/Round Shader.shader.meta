@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 2fed7a657d1f3b84abec7549a1db9013
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {fileID: 2800000, guid: 70f3c9546cfa2b442b0ba4f2050b60a4, type: 3}
+  - _boiBirdPallet: {fileID: 2800000, guid: 28aad15104cabb04bb7f42b3f7dc7ac1, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

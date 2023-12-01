@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - EmptyBowl
+  - FullBowl
+  - bowlSpawnPoint
+  - HalfFull
+  - Pachinko
+  - 100
+  - 200
+  - 300
+  - 500
+  - Change
+  - boi
+  - TempProfile
+  - Buy
+  - Ball
+  - Food
+  - Water
+  - Music
+  - FoodBar
+  - WaterBar
+  - EntertainBar
+  - FullWaterBowl
+  - FullFoodBowl
+  - validFloor
+  - furn
+  - thereCanOnlyBeOne
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - boi
+  - Water
+  - UI
+  - PopUp
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: floor
+    uniqueID: 2577570607
+    locked: 0
+  - name: wall
+    uniqueID: 1937834375
+    locked: 0
+  - name: boi
+    uniqueID: 4146965347
+    locked: 0
+  - name: UI
+    uniqueID: 551707623
+    locked: 0
+  - name: Tutorial
+    uniqueID: 248144493
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 1878704335
+    locked: 0

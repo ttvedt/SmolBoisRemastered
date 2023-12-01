@@ -1,0 +1,4604 @@
+fileFormatVersion: 2
+guid: e281529d3e85e174b81c892fe2e7456b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915364ca09cff4445bdc0a7595cfb189
+      internalID: 1144681037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1bb658d14090749bf44fe4b582d743
+      internalID: -103859015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376457ce5e6ffe84793f2ab2aaa27658
+      internalID: -1559524653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24ec085128bddd448e6cddf6f934819
+      internalID: -273707595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3f3ad70fc604946b080cab208685f3
+      internalID: -357716388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94267b8419eacbc478b28809117d414d
+      internalID: -969384922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fc9689a0e6a0748bf9467df6e242fc
+      internalID: 1030073759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f9e23a1c20438499e3c7400a1b081d
+      internalID: -389570998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d160e902d109554199a468a4b57ac48
+      internalID: -1453780445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82089c4a82570204cb6de7c4272c9d33
+      internalID: -1795568866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cb27a6db14271479c0d38ad7fce634
+      internalID: 315130958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f674e3be026b2c44e9120288ccc744f5
+      internalID: -535149399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a1ba50b5190574c9a74088087a1078
+      internalID: 688367271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad553c14a193a7d42b306791817accfa
+      internalID: 1800219658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1157
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e853485c6fdf145aef979879386f0f
+      internalID: 1857687808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8802ad28a22ecea45a76990b620c311a
+      internalID: 2113168341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e1623bc121aee4dabd0f72c6c394c3
+      internalID: -94612652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646f83f4fa868fa479042a517f70e0e6
+      internalID: -356135291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4890a8e02c4cf4b8a3a2ea96bb369d
+      internalID: 223223511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8906daa1478b19340a73370cd3c82181
+      internalID: -2012064015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2bcfcfa1d4b4540864b285a5bacdd3
+      internalID: -1092927711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b83816e517a9a740bb3164efe34bf24
+      internalID: 1659531981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7ae71619a31ea4ab4bfbbc9964a032
+      internalID: 257960928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee5caaead41e2d40840fed64811a84b
+      internalID: 1424427149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e6bd83b8b30574c95c0617e220e6b5
+      internalID: 315241774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c74c155bec97fd4c8dc9292dc646c00
+      internalID: -181940005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f727be779e59e4d9484fdb4d27bfdf
+      internalID: -1392060266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f3daccfb4966f4c9b39733598c80f4
+      internalID: -1887449533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a20655a6c20b644799f12b06d6ede42
+      internalID: 1280797115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1068
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82792f4f44aab8428dab3a6d863b0be
+      internalID: -1255962485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cbdb9b51d705c48bf4ca0d2bc599a1
+      internalID: 1076110536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127ceebf9d3970147af73464fd6f33f3
+      internalID: 840006840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29c3e6e5231dcb4ab474dde6b5448d9
+      internalID: 232478021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be42f842f6f0e5d498f36609dd8f08ec
+      internalID: -11626328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b463aaa3b9dd1640ad6a4948796ced7
+      internalID: 1842977933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcb8ced0f19dca4b886ad37e16cc1b2
+      internalID: 2135301656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df1a994d77cb4a408e91637e3ef66cc
+      internalID: 437074142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c7d4e228b5fd144bd0436f41a6e8ac
+      internalID: 1621800751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e07eb8911ce3b441beb16dce9612b76
+      internalID: -1946416643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ee468c640fd9d4caad5fe6cd7b4293
+      internalID: -1635955037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d8eca0d5d89be4fb222b8ca5868573
+      internalID: -1241221586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05972e9249c4a6f468431217f2cd9a6e
+      internalID: -823597403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05c2cba136efdb498f0307d535086d7
+      internalID: -784402699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0c3364521333e4a9441efad3214663
+      internalID: 2076693983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 979
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff86de62f80c5b8439ebf143c8b7e38f
+      internalID: 785973727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846036ab85ee2c54181f584a61aefc00
+      internalID: 1562889835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815a733dde76fde49b22dbbf04b73f3f
+      internalID: -1281031288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b542e01cc8955343b6515e9e5f861d3
+      internalID: 1726277142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78eacb1d0d287c246a2afd94f1796767
+      internalID: 131958410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8ce8a009ee0874ba52bd9a2044cfcb
+      internalID: 299208871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce75861fc180cb1478cd602bb0060437
+      internalID: -2016390864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492a3d32d9938e44aa2423d91d5980a5
+      internalID: -1052336142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726312ce037b7714ebaec4dceee7dd80
+      internalID: 1058127443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a2c10c80808d94a82c384e3206bb6b
+      internalID: -7634152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6626ddcae83d5ce40adc99439410a731
+      internalID: -1530082871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbffb752e8730b5449bbc47d65675d70
+      internalID: 1760612453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9952e5175aea94f41aadd8f32d617f24
+      internalID: 1475645087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a14d3e99dc2cd4cb30856626ee8fdd
+      internalID: -1941183174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb6a3ea33e86cf4aa84df23727984ea
+      internalID: -1272055605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 890
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fa5d2573562cb4588905f86d93b3e6
+      internalID: -352993971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932c67da37230484daf10962b37fa872
+      internalID: -1227335252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ea170db742f824da1664dc26abf65e
+      internalID: 1726349982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13337892e8d6b048a612954497619ac
+      internalID: 1719020178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252d3550531de384da0a39808a0d1db7
+      internalID: -497566194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335b65e1f2592824899c2915bdef740d
+      internalID: 1788331931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691751622fe5d1e46862d6ab829e885a
+      internalID: 305801882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c895e480beba6324cb1df031c4c2d53f
+      internalID: 1009673351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87906a854e1819b49ae6093818a66a0e
+      internalID: 2001194016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e64f7dd0d7e0fa46a6e55b7d9f7d854
+      internalID: -1270729317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d11423e34bc164caf11b0c81c343fe
+      internalID: 545533976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae2a40039c20134bb5d399b58099dfe
+      internalID: 2073673656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e71d5f6a6e9d94c8b3064b4b564e36
+      internalID: 1721450484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7bf173021f14c44b349feb08ce3a3c
+      internalID: -1531413286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9c83f2fd8b21045b90581e76036749
+      internalID: 1218061878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 801
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4c5d2fa34232b42880d3afc7ad92d1
+      internalID: 931435631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5abf2a58393b54696c151a32fb3c74
+      internalID: 761776269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1539168d9664c454dbb5b2f903d7f4a5
+      internalID: -1873486155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8205a709995dc494e9b108cf505c935c
+      internalID: -1969291550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cd24a22d2a7814c926b9e108c8db1a
+      internalID: -1553659231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40115be5e8bfd345ac52410a1c7174b
+      internalID: -1021960612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392ff184e3236904e86f630c5461f11c
+      internalID: -141496006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1978f7dc293efe4c8fbf350649bc94f
+      internalID: -623222027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1264c758abc81f44da5ba5b508c99977
+      internalID: 1659494734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7cd2f382efad54888b559a947ed80c
+      internalID: 1553041881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b5d39cc7358b24ca1ee50d9db5e5db
+      internalID: -1363384998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ef7ab387bafe64b8b2fce3739d73e8
+      internalID: -994055953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb88e1f63ba9ecf46a5142998707faf2
+      internalID: 725029450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d91cc90977feb4a920ef4fab0c7f98
+      internalID: 764734435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef6a81ef0641244eb8939045ee2932c
+      internalID: 1294749074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 712
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d8c76f3c143bf40a08854b156a7425
+      internalID: 1570613916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0402ef8f70c5c9c49813d8680a5c6093
+      internalID: 1655822282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e669d866570f3b468deddeb5a4e70a5
+      internalID: -889609626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df333957a0521bd43b93de082794d777
+      internalID: 116169798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9ad838b7275774c8f7abd16fd7b5b2
+      internalID: -968121065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d662e1fc39a55584193d4c1e8c02d69e
+      internalID: -2110145745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a36eb0ea2f861a4aa79339524b86dc2
+      internalID: -1647374224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6162ff9f4b6844b4e9b9131b597eb18b
+      internalID: -620141415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eabe2c513561d4c8317f4b321b6873
+      internalID: -446429287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef394142ed364524093e0bf5a9e08f20
+      internalID: 103029554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660abc80c859e7540937f62d9e499dab
+      internalID: 951392331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9750a7e42860504090c769359882451
+      internalID: -1792972851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63c949297b17f643b891e1eef1dcbda
+      internalID: -655801042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2f6000b64191945b2c6b8f894c39a9
+      internalID: -1122269780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73efa4e2ba66c4e419635222af4b949f
+      internalID: 1332288327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 623
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a184666ef734b439223f5e41fb6e93
+      internalID: -1709280852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55cc5904c1128a4dbb283a41b367962
+      internalID: -282694582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41aa7d141ae4854bb0915ac92b1d07a
+      internalID: -1780944028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d415051ce3531946a465f22cf792c04
+      internalID: 485874853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4aa6489de3de242afe7117f749ab18
+      internalID: -1675847038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cee069d9cda10479657cbf982a8f66
+      internalID: 152064635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c661b65b465aa914d9c45239ce1ddb50
+      internalID: -1488788211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb32b4b0355d4e47a201d99eb104955
+      internalID: -1443542377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22639abfc792c354bba17310e8d50d47
+      internalID: -565568193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74d903da1ba82a43a0117d15c86c455
+      internalID: -1131034468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7893c9859f9a32348b4186dcf0fc7afe
+      internalID: 1929335957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51caf3fbf9e189f44ba5647dcac1f3ca
+      internalID: 920168630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdc8cb5b6a8e074caae23fbb74e172c
+      internalID: -1155034427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8207f6c1f8b36064bbb10dd61de2bc3d
+      internalID: 1001778865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746b8168fee87f4448894c32f8ff2d2b
+      internalID: -846075665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 534
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0334d07e62ccd4bbd62aa28df8ce9b
+      internalID: 696467163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bd73b3ba363d141a8503ed3351c102
+      internalID: 2065299602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a9017e0ec0d7c47919cc56b6ecb7dc
+      internalID: 368979739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc082a9005611948a1890a55507c1e4
+      internalID: 729902942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac1ab06b7996294c9b956015b839612
+      internalID: 566691651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec438e60e80070649b43d57f1f81f412
+      internalID: -2000104740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd434bd1a4c1534d961828890846b41
+      internalID: -894558202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0899b372c4afb4149ae914d320bc10da
+      internalID: -670827021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16118551a1fd6949a884d80565879b8
+      internalID: -434818202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a1eba819e5c734abe119e6d2c4b714
+      internalID: 1747399439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8701b092ea06cc4faaaecc60eb19f18
+      internalID: 1592077198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0df35bc0bdd19948b2f49f286f334da
+      internalID: 546962507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8a7381345b86b4090940ba10d35d54
+      internalID: 1167562457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fca79d4212329d4ea1236f7cf27577f
+      internalID: 398262870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6756f273ce3cabc49957ca99fb23cace
+      internalID: 1669768936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 445
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc2b8b1e46e05743a0a522534db3a00
+      internalID: 1758566726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a44818decfa7e4185624d0d14e38f9
+      internalID: 34359679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4720f592643e5234e9982b067a879275
+      internalID: -1020162317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9fb9964817d5b43b0e68145b8d1512
+      internalID: -1666072046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b4adb9b0fe8c2419bf687e4283a5af
+      internalID: -323391569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4628ae6902463d24fb274cf015c6eced
+      internalID: 701812878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ef4c9f6e0285b42b0a75f9609bcf02
+      internalID: -925016721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f08cc761ab99741a00c6439d1bdab0
+      internalID: -1633180047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c90c231897c05b439fa4a8de5108335
+      internalID: 1088688128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29c9e635de2cae43a0b80bda5e56c3f
+      internalID: -1456289191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bf4d397841ed5439a5dc03172faacc
+      internalID: 1707445248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8c44afb09452f489e75f87a0b98206
+      internalID: 236639759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37816e0f81759c741900022761a4afff
+      internalID: -1909106436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa0f4cacd35db4418805be4cb459d96
+      internalID: -1647154119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9710df7772094e248a9873395cfacba2
+      internalID: -1063495089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 356
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72177c497a3f644ebb451fe4b1a3f62
+      internalID: 311581362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03644260898f834fa20c9af7c31369a
+      internalID: 1284467899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2e98653365efd4387f533d92cc7d6c
+      internalID: -540298460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7935f62629774841a105c4c9e03f454
+      internalID: 1966864253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141a2fe63d57b4e468e8b7ffd2a8ef9f
+      internalID: 1893979693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fd843d1db33704e9df0a8196a849c8
+      internalID: -563598791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b0d24356a6d2b4b93882eb90d717ec
+      internalID: -2114902300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd01b049abf492349996427ae3ca114e
+      internalID: -1848706024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db16c7b690a88bb43ab3657d6ad88406
+      internalID: -86496015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a89ffe8f2b93d42b82a8f7a4091588
+      internalID: 1273772583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b9684d1eaf93243a7cbe2eceec432f
+      internalID: -1440114826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4284dafcc04fdaa43b12fbb77371d2c7
+      internalID: 1164556152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dad51736bcf8e448a2a1b0581dd7614
+      internalID: -1018696149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0476d6e80b92d3a499af17a4ec0f6a69
+      internalID: 54392795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae05527899f95d418d56aa8527d2ef3
+      internalID: 1556677095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 267
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6169320d366134db4305eb1d734c60
+      internalID: 1729465862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b759400ca7f37499218035f232b9d7
+      internalID: 1873957719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b310c831c4fb104b8d1f344e837ebca
+      internalID: -1455048225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d7ed5bcecea974b9fcd3245b1363f7
+      internalID: -1824374628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0ea92141a7d074fb4efeb404b60d5d
+      internalID: 1689482991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a9ed185140b724a98d26670de3230e
+      internalID: -578810888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ad8e80b178ec14b8219749f561aa11
+      internalID: 1282145190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e700442cf0b9f647a144775dbea5f86
+      internalID: -531731017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593808869782db5409fefe835b377708
+      internalID: -415867571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7678866376fb2c44f88395087947eb74
+      internalID: 1080813136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98f869567515de429d6391d8efe41c0
+      internalID: 1188000594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c194f7fa90ab59441a61e638a5cc45fa
+      internalID: -388066214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7235965c0d8a9646ba746db01bc9a35
+      internalID: 200993579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be322c64998d8e64ebe7d18f714a0c51
+      internalID: -1627736105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11098c23f15c485408e0eb799e7474dd
+      internalID: -1571116293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 178
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c499b9ab6f2b0994292daf2ea5172352
+      internalID: 464240298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d00836cef492344995e928cba1587a7
+      internalID: -1876204864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976e913517ac6ea4d9e075b03d758df3
+      internalID: 720584918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d9fd936fef06c4e838e64913d1e24e
+      internalID: 549732375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb8c6038b7008342a8a11ddfb2bfc1c
+      internalID: -36618704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd18c08755807f4ba6e6d18b8c45d05
+      internalID: 241935087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073cb159ac9bd274d9b806c1e390366c
+      internalID: -182668963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8501af4b46ac6894188a51ecec471318
+      internalID: 1394048071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8f2b8f2cb015a40af5793ae4ab013e
+      internalID: -228208922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a078936d5fdc18e48916ec448cb79479
+      internalID: -720585537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ac9ad217e7d1a4396956f7331b78a4
+      internalID: -314849398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d146593a60bca469b06c11bf89bd1d
+      internalID: -288000848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa31fb773841dc42a391094114d9db6
+      internalID: -191282852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e524af6ad05e4c9a6dc819f49ed42
+      internalID: -780897526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51158be739a586542a11d91387adf8d6
+      internalID: 1917573664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 89
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d2b049427e0764eb5e8ce1e211132a
+      internalID: 2111620315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96879d232e6499543bd0c4a4f455a4ff
+      internalID: -2040469033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd61460689af04498290813684a930b
+      internalID: 409610319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a61a387d3734f540bd2f76c4e803ed6
+      internalID: 2090917957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 0
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506ad6f62c4ee414590abb3bad26519c
+      internalID: 1830647888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 0
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4cbcc013923774684dce5f7b18ad3e
+      internalID: 737428588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkiesSpriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 0
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e02b67f6920104db8243984f6bd6ec
+      internalID: 768452207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WalkiesSpriteSheet_25: -181940005
+      WalkiesSpriteSheet_97: -446429287
+      WalkiesSpriteSheet_134: 1758566726
+      WalkiesSpriteSheet_64: 1788331931
+      WalkiesSpriteSheet_93: -968121065
+      WalkiesSpriteSheet_153: 1893979693
+      WalkiesSpriteSheet_52: 1058127443
+      WalkiesSpriteSheet_37: 1621800751
+      WalkiesSpriteSheet_169: -578810888
+      WalkiesSpriteSheet_90: 1655822282
+      WalkiesSpriteSheet_96: -620141415
+      WalkiesSpriteSheet_140: -925016721
+      WalkiesSpriteSheet_121: 368979739
+      WalkiesSpriteSheet_188: -720585537
+      WalkiesSpriteSheet_103: 1332288327
+      WalkiesSpriteSheet_95: -1647374224
+      WalkiesSpriteSheet_26: -1392060266
+      WalkiesSpriteSheet_177: -1627736105
+      WalkiesSpriteSheet_123: 566691651
+      WalkiesSpriteSheet_171: -531731017
+      WalkiesSpriteSheet_80: -141496006
+      WalkiesSpriteSheet_150: 1284467899
+      WalkiesSpriteSheet_41: -823597403
+      WalkiesSpriteSheet_29: -1255962485
+      WalkiesSpriteSheet_145: 236639759
+      WalkiesSpriteSheet_162: 54392795
+      WalkiesSpriteSheet_101: -655801042
+      WalkiesSpriteSheet_147: -1647154119
+      WalkiesSpriteSheet_33: -11626328
+      WalkiesSpriteSheet_34: 1842977933
+      WalkiesSpriteSheet_91: -889609626
+      WalkiesSpriteSheet_135: 34359679
+      WalkiesSpriteSheet_178: -1571116293
+      WalkiesSpriteSheet_40: -1241221586
+      WalkiesSpriteSheet_24: 315241774
+      WalkiesSpriteSheet_168: 1689482991
+      WalkiesSpriteSheet_39: -1635955037
+      WalkiesSpriteSheet_84: -1363384998
+      WalkiesSpriteSheet_116: -1155034427
+      WalkiesSpriteSheet_77: -1969291550
+      WalkiesSpriteSheet_146: -1909106436
+      WalkiesSpriteSheet_191: -191282852
+      WalkiesSpriteSheet_200: 768452207
+      WalkiesSpriteSheet_158: 1273772583
+      WalkiesSpriteSheet_87: 764734435
+      WalkiesSpriteSheet_14: 1857687808
+      WalkiesSpriteSheet_170: 1282145190
+      WalkiesSpriteSheet_7: -389570998
+      WalkiesSpriteSheet_130: 546962507
+      WalkiesSpriteSheet_164: 1729465862
+      WalkiesSpriteSheet_58: -1272055605
+      WalkiesSpriteSheet_79: -1021960612
+      WalkiesSpriteSheet_142: 1088688128
+      WalkiesSpriteSheet_3: -273707595
+      WalkiesSpriteSheet_160: 1164556152
+      WalkiesSpriteSheet_44: 785973727
+      WalkiesSpriteSheet_174: 1188000594
+      WalkiesSpriteSheet_198: 1830647888
+      WalkiesSpriteSheet_2: -1559524653
+      WalkiesSpriteSheet_20: -1092927711
+      WalkiesSpriteSheet_122: 729902942
+      WalkiesSpriteSheet_48: 131958410
+      WalkiesSpriteSheet_65: 305801882
+      WalkiesSpriteSheet_100: -1792972851
+      WalkiesSpriteSheet_76: -1873486155
+      WalkiesSpriteSheet_5: -969384922
+      WalkiesSpriteSheet_6: 1030073759
+      WalkiesSpriteSheet_183: -36618704
+      WalkiesSpriteSheet_120: 2065299602
+      WalkiesSpriteSheet_129: 1592077198
+      WalkiesSpriteSheet_11: -535149399
+      WalkiesSpriteSheet_155: -2114902300
+      WalkiesSpriteSheet_133: 1669768936
+      WalkiesSpriteSheet_196: 409610319
+      WalkiesSpriteSheet_4: -357716388
+      WalkiesSpriteSheet_115: 920168630
+      WalkiesSpriteSheet_42: -784402699
+      WalkiesSpriteSheet_9: -1795568866
+      WalkiesSpriteSheet_113: -1131034468
+      WalkiesSpriteSheet_143: -1456289191
+      WalkiesSpriteSheet_112: -565568193
+      WalkiesSpriteSheet_19: -2012064015
+      WalkiesSpriteSheet_71: 1721450484
+      WalkiesSpriteSheet_30: 1076110536
+      WalkiesSpriteSheet_192: -780897526
+      WalkiesSpriteSheet_68: -1270729317
+      WalkiesSpriteSheet_69: 545533976
+      WalkiesSpriteSheet_63: -497566194
+      WalkiesSpriteSheet_0: 1144681037
+      WalkiesSpriteSheet_13: 1800219658
+      WalkiesSpriteSheet_23: 1424427149
+      WalkiesSpriteSheet_138: -323391569
+      WalkiesSpriteSheet_127: -434818202
+      WalkiesSpriteSheet_151: -540298460
+      WalkiesSpriteSheet_66: 1009673351
+      WalkiesSpriteSheet_51: -1052336142
+      WalkiesSpriteSheet_70: 2073673656
+      WalkiesSpriteSheet_102: -1122269780
+      WalkiesSpriteSheet_31: 840006840
+      WalkiesSpriteSheet_98: 103029554
+      WalkiesSpriteSheet_194: 2111620315
+      WalkiesSpriteSheet_32: 232478021
+      WalkiesSpriteSheet_57: -1941183174
+      WalkiesSpriteSheet_126: -670827021
+      WalkiesSpriteSheet_60: -1227335252
+      WalkiesSpriteSheet_8: -1453780445
+      WalkiesSpriteSheet_81: -623222027
+      WalkiesSpriteSheet_182: 549732375
+      WalkiesSpriteSheet_189: -314849398
+      WalkiesSpriteSheet_46: -1281031288
+      WalkiesSpriteSheet_131: 1167562457
+      WalkiesSpriteSheet_43: 2076693983
+      WalkiesSpriteSheet_22: 257960928
+      WalkiesSpriteSheet_149: 311581362
+      WalkiesSpriteSheet_118: -846075665
+      WalkiesSpriteSheet_55: 1760612453
+      WalkiesSpriteSheet_181: 720584918
+      WalkiesSpriteSheet_165: 1873957719
+      WalkiesSpriteSheet_110: -1488788211
+      WalkiesSpriteSheet_47: 1726277142
+      WalkiesSpriteSheet_166: -1455048225
+      WalkiesSpriteSheet_139: 701812878
+      WalkiesSpriteSheet_106: -1780944028
+      WalkiesSpriteSheet_59: -352993971
+      WalkiesSpriteSheet_173: 1080813136
+      WalkiesSpriteSheet_199: 737428588
+      WalkiesSpriteSheet_187: -228208922
+      WalkiesSpriteSheet_17: -356135291
+      WalkiesSpriteSheet_85: -994055953
+      WalkiesSpriteSheet_163: 1556677095
+      WalkiesSpriteSheet_92: 116169798
+      WalkiesSpriteSheet_108: -1675847038
+      WalkiesSpriteSheet_75: 761776269
+      WalkiesSpriteSheet_124: -2000104740
+      WalkiesSpriteSheet_12: 688367271
+      WalkiesSpriteSheet_157: -86496015
+      WalkiesSpriteSheet_172: -415867571
+      WalkiesSpriteSheet_72: -1531413286
+      WalkiesSpriteSheet_82: 1659494734
+      WalkiesSpriteSheet_107: 485874853
+      WalkiesSpriteSheet_136: -1020162317
+      WalkiesSpriteSheet_21: 1659531981
+      WalkiesSpriteSheet_186: 1394048071
+      WalkiesSpriteSheet_35: 2135301656
+      WalkiesSpriteSheet_152: 1966864253
+      WalkiesSpriteSheet_105: -282694582
+      WalkiesSpriteSheet_86: 725029450
+      WalkiesSpriteSheet_88: 1294749074
+      WalkiesSpriteSheet_176: 200993579
+      WalkiesSpriteSheet_119: 696467163
+      WalkiesSpriteSheet_195: -2040469033
+      WalkiesSpriteSheet_28: 1280797115
+      WalkiesSpriteSheet_45: 1562889835
+      WalkiesSpriteSheet_49: 299208871
+      WalkiesSpriteSheet_125: -894558202
+      WalkiesSpriteSheet_144: 1707445248
+      WalkiesSpriteSheet_54: -1530082871
+      WalkiesSpriteSheet_10: 315130958
+      WalkiesSpriteSheet_184: 241935087
+      WalkiesSpriteSheet_109: 152064635
+      WalkiesSpriteSheet_159: -1440114826
+      WalkiesSpriteSheet_179: 464240298
+      WalkiesSpriteSheet_117: 1001778865
+      WalkiesSpriteSheet_148: -1063495089
+      WalkiesSpriteSheet_141: -1633180047
+      WalkiesSpriteSheet_193: 1917573664
+      WalkiesSpriteSheet_67: 2001194016
+      WalkiesSpriteSheet_56: 1475645087
+      WalkiesSpriteSheet_104: -1709280852
+      WalkiesSpriteSheet_1: -103859015
+      WalkiesSpriteSheet_16: -94612652
+      WalkiesSpriteSheet_167: -1824374628
+      WalkiesSpriteSheet_78: -1553659231
+      WalkiesSpriteSheet_36: 437074142
+      WalkiesSpriteSheet_161: -1018696149
+      WalkiesSpriteSheet_38: -1946416643
+      WalkiesSpriteSheet_89: 1570613916
+      WalkiesSpriteSheet_128: 1747399439
+      WalkiesSpriteSheet_137: -1666072046
+      WalkiesSpriteSheet_156: -1848706024
+      WalkiesSpriteSheet_175: -388066214
+      WalkiesSpriteSheet_73: 1218061878
+      WalkiesSpriteSheet_114: 1929335957
+      WalkiesSpriteSheet_74: 931435631
+      WalkiesSpriteSheet_180: -1876204864
+      WalkiesSpriteSheet_83: 1553041881
+      WalkiesSpriteSheet_197: 2090917957
+      WalkiesSpriteSheet_53: -7634152
+      WalkiesSpriteSheet_62: 1719020178
+      WalkiesSpriteSheet_94: -2110145745
+      WalkiesSpriteSheet_61: 1726349982
+      WalkiesSpriteSheet_50: -2016390864
+      WalkiesSpriteSheet_27: -1887449533
+      WalkiesSpriteSheet_154: -563598791
+      WalkiesSpriteSheet_18: 223223511
+      WalkiesSpriteSheet_132: 398262870
+      WalkiesSpriteSheet_111: -1443542377
+      WalkiesSpriteSheet_15: 2113168341
+      WalkiesSpriteSheet_99: 951392331
+      WalkiesSpriteSheet_185: -182668963
+      WalkiesSpriteSheet_190: -288000848
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
