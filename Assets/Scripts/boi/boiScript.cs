@@ -239,11 +239,13 @@ public class boiScript : MonoBehaviour
         justBred = true;
         float pop = gameManager.getPopulation();
         float mpop = gameManager.getMaxPopulation();
+        // check random value against current population 
         if (Random.value > pop/mpop) {
             //Debug.Log("boiScript.cs tryBreed(): " + getMe() + " MADE CHILD, population = " + pop +"/"+ mpop);
             gameManager.makeBoi(s, c1, c2, x, y); 
         }
-        else { Debug.Log("boiScript.cs tryBreed(): " + getMe() + " does not make child because of overcrowding, " + 100*pop/mpop + "% capacity = " + pop +"/"+ mpop); }
+        // does not make child because of overcrowding
+        else { Debug.Log("boiScript.cs tryBreed(): " + getMe() + " breed failed. " + 100*pop/mpop + "% capacity = " + pop +"/"+ mpop); }
     }
 
     public void feed()

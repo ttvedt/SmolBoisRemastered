@@ -11,25 +11,25 @@ Shader "Custom/SwapPallits"
 		[MaterialToggle] PixelSnap("Pixel snap", Float) = 1
 	}
 
-		SubShader
+	SubShader
+	{
+		Tags
 		{
-			Tags
-			{
-				"Queue" = "Transparent"
-				"IgnoreProjector" = "True"
-				"RenderType" = "Transparent"
-				"PreviewType" = "Plane"
-				"CanUseSpriteAtlas" = "True"
-			}
+			"Queue" = "Transparent"
+			"IgnoreProjector" = "True"
+			"RenderType" = "Transparent"
+			"PreviewType" = "Plane"
+			"CanUseSpriteAtlas" = "True"
+		}
 
-			Cull Off
-			Lighting Off
-			ZWrite Off
-			Fog { Mode Off }
-			Blend SrcAlpha OneMinusSrcAlpha //Alpha???
+		Cull Off
+		Lighting Off
+		ZWrite Off
+		Fog { Mode Off }
+		Blend SrcAlpha OneMinusSrcAlpha //Alpha???
 
-			Pass
-			{
+		Pass
+		{
 			CGPROGRAM
 				#pragma glsl
 			//#pragma surface surf Standard fullforwardshadows alpha  //Thought this might fix the alpha :(
@@ -86,6 +86,6 @@ Shader "Custom/SwapPallits"
 			}
 		ENDCG
 		}
-		}
+	}
 }
 

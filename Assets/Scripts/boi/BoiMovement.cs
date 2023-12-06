@@ -31,6 +31,7 @@ public class BoiMovement : MonoBehaviour
     private float dt;
     private GameManager gameManager;
     private bool isBaseGame = false;
+    private float needLimit = 88888;//33333;
 
     //private bool failCheckFood = false;
     //private bool failCheckWater = false;
@@ -66,17 +67,18 @@ public class BoiMovement : MonoBehaviour
     {
         isBaseGame = gameManager.getIsBaseGame();
         dt = Time.deltaTime;
-        if (isBaseGame && PlayerPrefs.GetInt("food") < 33333) {
-            feed();
+        //Debug.LogWarning("BoiMovement.cs Update(): food = " + PlayerPrefs.GetInt("food") + ", water = " + PlayerPrefs.GetInt("water"));
+        /*if (isBaseGame && PlayerPrefs.GetInt("food") < needLimit) {
+            feedMove();
         }
-        else if (isBaseGame && PlayerPrefs.GetInt("water") < 33333) {
-            thirst();
+        else if (isBaseGame && PlayerPrefs.GetInt("water") < needLimit) {
+            thirstMove();
         }
-        else if (isBaseGame && PlayerPrefs.GetInt("entertainment") >= 33333 && thisBoi.canBreed()) {
-            breed();
+        else */if (isBaseGame && PlayerPrefs.GetInt("entertainment") >= needLimit && thisBoi.canBreed()) {
+            breedMove();
         }
         else {
-            // TODO: wander
+            // wander
             if (justMoved) {
                 moveCooldown += dt;
                 if (moveCooldown >= waitTime) {
@@ -108,21 +110,23 @@ public class BoiMovement : MonoBehaviour
         }
     }
 
-    void feed()
+    void feedMove()
     {
         gameObjectChoicesFood = GameObject.FindGameObjectsWithTag("FullFoodBowl");
         choiceNumberFood = Random.Range(0, gameObjectChoicesFood.Length);
         move(gameObjectChoicesFood[choiceNumberFood].gameObject.transform.position);
+        Debug.LogWarning("BoiMovement.cs feedMove(): feeding");
     }
 
-    void thirst()
+    void thirstMove()
     {
         gameObjectChoicesWater = GameObject.FindGameObjectsWithTag("FullWaterBowl");
         choiceNumberWater = Random.Range(0, gameObjectChoicesWater.Length);
         move(gameObjectChoicesWater[choiceNumberWater].gameObject.transform.position);
+        Debug.LogWarning("BoiMovement.cs thirstMove(): thirsting");
     }
 
-    void breed() {
+    void breedMove() {
         //get objects with tag and apply it to object array
         gameObjectChoicesBoi = GameObject.FindGameObjectsWithTag("boi");
         //choose one of the gameObjects in array

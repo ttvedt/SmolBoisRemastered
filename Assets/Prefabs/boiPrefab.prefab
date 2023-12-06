@@ -175,6 +175,7 @@ MonoBehaviour:
   speed: 5
   justMoved: 1
   wander: 3
+  needLimit: 88888
 --- !u!114 &-5509735420193360632
 MonoBehaviour:
   m_ObjectHideFlags: 0
