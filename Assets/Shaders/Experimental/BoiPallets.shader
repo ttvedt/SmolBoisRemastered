@@ -1,6 +1,6 @@
 Shader "CustomURP/BoiPallets"
 {
-    Properties
+    /*Properties
     {
         _MainTex("Diffuse", 2D) = "white" {}
         _MaskTex("Mask", 2D) = "white" {}
@@ -351,5 +351,5 @@ Shader "CustomURP/BoiPallets"
                 //}
         }
 
-            Fallback "Sprites/Default"
+            Fallback "Sprites/Default"*/
 }
