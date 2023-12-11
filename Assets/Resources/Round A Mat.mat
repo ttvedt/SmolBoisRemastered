@@ -25,6 +25,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: c778b1eb0432fe842b5d1db06e5f85b9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _PallitTex:
         m_Texture: {fileID: 2800000, guid: 3b709b6715767ea4da53c28bc7ba8e48, type: 3}
         m_Scale: {x: 1, y: 1}
