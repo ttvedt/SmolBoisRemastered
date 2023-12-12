@@ -83,7 +83,8 @@
                 float3 normal = UnpackNormal(tex2D(_NormalMap, IN.texcoord.xy));
                 float3 lightDir = normalize(float3(1, 1, 1)); // Adjust the light direction as needed
                 float NdotL = max(0, dot(normal, lightDir));
-                c.rgb *= NdotL; // Apply lighting to the color
+                float normalFactor = 0.5; // Adjust this factor as needed
+                c.rgb *= (1.0 - normalFactor) + normalFactor * NdotL; // Apply lighting to the color
                 
                 return c * _Color;
             }
